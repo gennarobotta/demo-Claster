@@ -9,7 +9,7 @@ document.addEventListener("deviceready", function () {
     };
     var map = plugin.google.maps.Map.getMap(mapDiv, options);
     plugin.google.maps.environment.setEnv({
-      'API_KEY_FOR_BROWSER_RELEASE': '(YOUR_API_KEY_IS_HERE)',
+      'API_KEY_FOR_BROWSER_RELEASE': 'AIzaSyBZamoub9SCWL2GriEBRSgLGVVrF0QPakk',
       'API_KEY_FOR_BROWSER_DEBUG': 'AIzaSyBZamoub9SCWL2GriEBRSgLGVVrF0QPakk'
   });
     map.on(plugin.google.maps.event.MAP_READY, onMapReady);
