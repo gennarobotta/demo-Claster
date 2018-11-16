@@ -1,4 +1,3 @@
-document.addEventListener("deviceready", function () {
 var data = [
   {
     "position": {
@@ -579,6 +578,8 @@ var data = [
     "icon": "www/img/starbucks.png"
   }
 ];
+document.addEventListener("deviceready", function () {
+
     var mapDiv = document.getElementById("map_canvas");
     var options = {
         'camera': {
