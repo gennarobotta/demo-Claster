@@ -10,7 +10,7 @@ document.addEventListener("deviceready", function () {
     var map = plugin.google.maps.Map.getMap(mapDiv, options);
     plugin.google.maps.environment.setEnv({
       'API_KEY_FOR_BROWSER_RELEASE': '(YOUR_API_KEY_IS_HERE)',
-      'API_KEY_FOR_BROWSER_DEBUG': '(YOUR_API_KEY_IS_HERE)'
+      'API_KEY_FOR_BROWSER_DEBUG': 'AIzaSyBZamoub9SCWL2GriEBRSgLGVVrF0QPakk'
   });
     map.on(plugin.google.maps.event.MAP_READY, onMapReady);
 });
@@ -30,10 +30,10 @@ function onMapReady() {
       boundsDraw: true,
       markers: data,
       icons: [
-          {min: 2, max: 100, url: "./img/blue.png", anchor: {x: 16, y: 16}},
-          {min: 100, max: 1000, url: "./img/yellow.png", anchor: {x: 16, y: 16}},
-          {min: 1000, max: 2000, url: "./img/purple.png", anchor: {x: 24, y: 24}},
-          {min: 2000, url: "./img/red.png",anchor: {x: 32,y: 32}},
+          {min: 2, max: 100, url: "./www/img/blue.png", anchor: {x: 16, y: 16}},
+          {min: 100, max: 1000, url: "./www/img/yellow.png", anchor: {x: 16, y: 16}},
+          {min: 1000, max: 2000, url: "./www/img/purple.png", anchor: {x: 24, y: 24}},
+          {min: 2000, url: "./www/img/red.png",anchor: {x: 32,y: 32}},
       ]
     }, function (markerCluster) {
 
