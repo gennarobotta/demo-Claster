@@ -68,7 +68,7 @@ function onMapReady() {
         markerCluster.on(plugin.google.maps.event.MARKER_CLICK, function (position, marker) {
           var html = [
             "<div style='width:250px;min-height:100px'>",
-            "<img src='img/starbucks_logo.gif' align='right'>",
+            "<img src='www/img/starbucks_logo.gif' align='right'>",
             "<strong>" + (marker.get("title") || marker.get("name")) + "</strong>"
           ];
           if (marker.get("address")) {
